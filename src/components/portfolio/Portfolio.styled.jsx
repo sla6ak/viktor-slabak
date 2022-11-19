@@ -1,8 +1,9 @@
 import styled from '@emotion/styled';
 
-export const PrivRoutes = styled.p`
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 45px;
+export const PortfolioHigth = styled.div`
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
 `;

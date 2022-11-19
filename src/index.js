@@ -8,7 +8,7 @@ import { store, persistor } from './redux/store';
 import { materialTheme } from './helpers/theme';
 import App from './components/app/App';
 import { GlobalStyled } from './GlobalStyled.styled';
-import Loader from './components/ loader /Loader';
+import Loader from './components/loader/Loader';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

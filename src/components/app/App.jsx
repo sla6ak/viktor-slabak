@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
-import AboutMe from 'components/aboutMe/AboutMe';
-import Portfolio from 'components/portfolio/Portfolio';
-import Contacts from 'components/contacts/Contacts';
-import Layout from 'layouts/Layout';
+import AboutMe from '../aboutMe/AboutMe';
+import Portfolio from '../portfolio/Portfolio';
+import Contacts from '../contacts/Contacts';
+import Layout from '../../layouts/Layout';
 
-const DashboardPage = React.lazy(() => import('views/dashboardPage/DashboardPage'));
+const DashboardPage = React.lazy(() => import('../../views/dashboardPage/DashboardPage'));
 
 function App() {
     return (

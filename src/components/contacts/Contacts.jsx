@@ -1,7 +1,12 @@
 import React from 'react';
+import { ContactsBacground } from './Contacts.styled';
 
 const Contacts = () => {
-    return <div>Contacts</div>;
+    return (
+        <ContactsBacground>
+            <p>My contacts:</p>
+        </ContactsBacground>
+    );
 };
 
 export default Contacts;

@@ -1,35 +1,23 @@
-import { useEffect } from 'react';
-import { Outlet, useNavigate } from 'react-router-dom';
-import Media from 'react-media';
+// import { useEffect } from 'react';
+
 import { Container } from '../../components/container/Container';
 import BackgroundMainPage from '../../components/backgroundMainPage/BackgroundMainPage';
-import Navigation from 'components/navigation/Navigation';
-import Currency from '../../components/currency/Currency';
+// import Navigation from 'components/navigation/Navigation';
+import Portfolio from '../../components/portfolio/Portfolio';
 import AppBar from '../../components/appBar/AppBar';
-import Balance from '../../components/balance/Balance';
-import { TopInfoWrap, NavBalanceWrap, MainWrap, BorderLine } from './DashboardPage.styled';
+import AboutMe from '../../components/aboutMe/AboutMe';
+import Contacts from '../../components/contacts/Contacts';
+import { MainWrap } from './DashboardPage.styled';
 
 const DashboardPage = () => {
-    const navigate = useNavigate();
-    useEffect(() => {
-        navigate('/home');
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
-
     return (
         <BackgroundMainPage>
             <AppBar />
             <Container>
                 <MainWrap>
-                    <TopInfoWrap>
-                        <NavBalanceWrap>
-                            <Navigation />
-                            <Media query="(min-width: 768px)" render={() => <Balance />} />
-                        </NavBalanceWrap>
-                        <Media query="(min-width: 768px)" render={() => <Currency />} />
-                    </TopInfoWrap>
-                    <Media query="(min-width: 1280px)" render={() => <BorderLine></BorderLine>} />
-                    <Outlet />
+                    <AboutMe />
+                    <Portfolio />
+                    <Contacts />
                 </MainWrap>
             </Container>
         </BackgroundMainPage>
