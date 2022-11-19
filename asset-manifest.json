@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17654e45.css",
+    "main.js": "/static/js/main.f9a1a51b.js",
+    "static/js/84.c4ccac30.chunk.js": "/static/js/84.c4ccac30.chunk.js",
+    "static/media/my-previe.png": "/static/media/my-previe.820659e94a93adf936d9.png",
+    "static/media/sprite.svg": "/static/media/sprite.ebe1a9f8aec3eda9b92b13440f092084.svg",
+    "index.html": "/index.html",
+    "main.17654e45.css.map": "/static/css/main.17654e45.css.map",
+    "main.f9a1a51b.js.map": "/static/js/main.f9a1a51b.js.map",
+    "84.c4ccac30.chunk.js.map": "/static/js/84.c4ccac30.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17654e45.css",
+    "static/js/main.f9a1a51b.js"
+  ]
+}
