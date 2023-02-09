@@ -1,17 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.17654e45.css",
-    "main.js": "/static/js/main.f9a1a51b.js",
-    "static/js/84.c4ccac30.chunk.js": "/static/js/84.c4ccac30.chunk.js",
+    "main.js": "/static/js/main.c94fe741.js",
+    "static/js/84.eceabca8.chunk.js": "/static/js/84.eceabca8.chunk.js",
     "static/media/my-previe.png": "/static/media/my-previe.820659e94a93adf936d9.png",
     "static/media/sprite.svg": "/static/media/sprite.ebe1a9f8aec3eda9b92b13440f092084.svg",
+    "static/media/icons8-viber.svg": "/static/media/icons8-viber.afdde496aaa27d36c80d2114f65b3b65.svg",
+    "static/media/facebook.svg": "/static/media/facebook.f40e2a3ed9acdd36cde347a091b5a1b5.svg",
+    "static/media/github-svgrepo-com.svg": "/static/media/github-svgrepo-com.c68ba8cd6ef8d382b5306be432f75dba.svg",
+    "static/media/whatsapp-svgrepo-com.svg": "/static/media/whatsapp-svgrepo-com.35738ac510d17c3dbf6609968b7760c0.svg",
     "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.39c8dc6694ac0c6e0275d8b5c3706d94.svg",
+    "static/media/icons8-telegram-app.svg": "/static/media/icons8-telegram-app.b0589b5e724dd92cc132ddb6a0e049d9.svg",
     "main.17654e45.css.map": "/static/css/main.17654e45.css.map",
-    "main.f9a1a51b.js.map": "/static/js/main.f9a1a51b.js.map",
-    "84.c4ccac30.chunk.js.map": "/static/js/84.c4ccac30.chunk.js.map"
+    "main.c94fe741.js.map": "/static/js/main.c94fe741.js.map",
+    "84.eceabca8.chunk.js.map": "/static/js/84.eceabca8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17654e45.css",
-    "static/js/main.f9a1a51b.js"
+    "static/js/main.c94fe741.js"
   ]
 }
