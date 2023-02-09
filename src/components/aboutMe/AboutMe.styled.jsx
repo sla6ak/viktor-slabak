@@ -61,14 +61,6 @@ export const TextSkils = styled.div`
         font-size: 1rem;
     }
 `;
-export const Title2 = styled.p`
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin: 10px 40px;
-    @media (max-width: 768px) {
-        font-size: 1.1rem;
-    }
-`;
 export const Title3 = styled.p`
     font-size: 1.2rem;
     font-weight: 500;
@@ -101,3 +93,9 @@ export const BoxSkills = styled.div`
 //         flex-direction: column;
 //     }
 // `;
+export const TitleBlock = styled.h2`
+    background-color: transparent;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+`;

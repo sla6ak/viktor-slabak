@@ -7,3 +7,9 @@ export const PortfolioHigth = styled.div`
     flex-direction: column;
     flex-grow: 3;
 `;
+export const TitleBlock = styled.h2`
+    background-color: transparent;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+`;

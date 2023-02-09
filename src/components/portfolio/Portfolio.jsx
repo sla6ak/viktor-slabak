@@ -1,10 +1,10 @@
 import React from 'react';
-import { PortfolioHigth } from './Portfolio.styled';
+import { PortfolioHigth, TitleBlock } from './Portfolio.styled';
 
 const Portfolio = () => {
     return (
         <PortfolioHigth>
-            <div>Portfolio</div>
+            <TitleBlock>Portfolio:</TitleBlock>
         </PortfolioHigth>
     );
 };

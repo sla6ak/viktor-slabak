@@ -6,10 +6,10 @@ import {
     MyPrevie,
     BtnModal,
     TextSkils,
-    Title2,
     Title3,
     TextMe,
     BoxSkills,
+    TitleBlock,
 } from './AboutMe.styled';
 import Modal from '../modal/Modal';
 import ModalAvatar from '../modalAvatar/ModalAvatar';
@@ -31,9 +31,9 @@ const AboutMe = () => {
             <BoxSkills>
                 <TextBlock>
                     <TextSkils>
-                        <Title2>Hard skills: </Title2>
+                        <TitleBlock>Hard skills: </TitleBlock>
                         <Title3>Frontend: </Title3>
-                        <TextMe>HTML, CSS/SASS, Web-socets, Figma, React, Redux, axios, Three.js, Webgl...</TextMe>
+                        <TextMe>HTML, CSS/SASS, Web-sockets, Figma, React, Redux, axios, Three.js, Webgl...</TextMe>
                         <Title3>Backend: </Title3>
                         <TextMe>Cli, Node.JS, Express, MongoDB, CRUD…</TextMe>
                         <Title3>Mobile: </Title3>
