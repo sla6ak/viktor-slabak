@@ -25,6 +25,7 @@ export const GeneralBlockInfo = styled.div`
     justify-content: space-around;
     padding-left: 15px;
     padding-right: 15px;
+    flex-wrap: wrap;
 `;
 export const NameInfo = styled.div`
     display: flex;
@@ -44,4 +45,11 @@ export const InfoLink = styled(Link)`
     justify-content: center;
     align-items: center;
     text-align: center;
+`;
+
+export const OneBlok = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `;

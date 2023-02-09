@@ -1,5 +1,13 @@
 import React from 'react';
-import { ContactsBacground, TitleBlock, GeneralBlockInfo, NameInfo, AboutNameInfo, InfoLink } from './Contacts.styled';
+import {
+    ContactsBacground,
+    TitleBlock,
+    GeneralBlockInfo,
+    NameInfo,
+    AboutNameInfo,
+    InfoLink,
+    OneBlok,
+} from './Contacts.styled';
 import { ReactComponent as TelegramSvg } from '../../images/contacts/icons8-telegram-app.svg';
 import { ReactComponent as ViberSvg } from '../../images/contacts/icons8-viber.svg';
 import { ReactComponent as TeleponeSvg } from '../../images/contacts/whatsapp-svgrepo-com.svg';
@@ -12,7 +20,7 @@ const Contacts = () => {
         <ContactsBacground>
             <TitleBlock>My contacts:</TitleBlock>
             <GeneralBlockInfo>
-                <div>
+                <OneBlok>
                     <NameInfo>
                         <AboutNameInfo>Ukraine</AboutNameInfo>
                     </NameInfo>
@@ -22,8 +30,8 @@ const Contacts = () => {
                     <NameInfo>
                         <AboutNameInfo>Karmeluka 23/60</AboutNameInfo>
                     </NameInfo>
-                </div>
-                <div>
+                </OneBlok>
+                <OneBlok>
                     <NameInfo>
                         <InfoLink sx={{ ml: '5px' }} target="blank" href="tel:+3800966290475">
                             <p>Tel: (+38) 0966290475</p>
@@ -48,8 +56,8 @@ const Contacts = () => {
                             </AboutNameInfo>
                         </InfoLink>
                     </NameInfo>
-                </div>
-                <div>
+                </OneBlok>
+                <OneBlok>
                     <NameInfo>
                         <InfoLink
                             sx={{ ml: '5px' }}
@@ -82,7 +90,7 @@ const Contacts = () => {
                             </AboutNameInfo>
                         </InfoLink>
                     </NameInfo>
-                </div>
+                </OneBlok>
             </GeneralBlockInfo>
         </ContactsBacground>
     );
